@@ -11,7 +11,7 @@ const ContactSection = () => {
     const [ref, isVisible] = useScrollAnimation();
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
-    const whatsappNumber = '8886113839';
+    const whatsappNumber = '918886113839';
     const handleWhatsAppSubmit = (e) => {
         e.preventDefault();
         const message = encodeURIComponent(
@@ -144,10 +144,10 @@ const ContactSection = () => {
                                             Send detailed inquiries and project requirements via email.
                                         </p>
                                         <a
-                                            href="mailto:info@flowsiteai.com"
+                                            href="mailto:flowsiteaidevs@gmail.com"
                                             className="text-primary font-semibold hover:underline"
                                         >
-                                            pulluriaravind@gmail.com
+                                            flowsiteaidevs@gmail.com
                                         </a>
                                     </div>
                                 </div>
