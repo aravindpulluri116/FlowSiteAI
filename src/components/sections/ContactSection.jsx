@@ -126,7 +126,7 @@ const ContactSection = () => {
                                             rel="noopener noreferrer"
                                             className="text-primary font-semibold hover:underline"
                                         >
-                                            +91 {whatsappNumber}
+                                            +91 8886113839
                                         </a>
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@ const ContactSection = () => {
                                             href={`tel:${whatsappNumber}`}
                                             className="text-primary font-semibold hover:underline"
                                         >
-                                            +91 {whatsappNumber}
+                                            +91 8886113839
                                         </a>
                                     </div>
                                 </div>

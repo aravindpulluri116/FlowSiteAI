@@ -19,7 +19,7 @@ const Button = ({
 
     const variants = {
         primary: 'bg-gradient-to-r from-primary-600 to-primary-500 text-white hover:shadow-xl hover:shadow-primary-200/50 hover:scale-105 focus:ring-primary-200',
-        secondary: 'bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white hover:shadow-xl hover:scale-105 focus:ring-primary-200',
+        secondary: 'bg-white text-primary border-2 border-primary hover:border-yellow-400 hover:shadow-xl hover:scale-105 focus:ring-primary-200',
         outlined: 'bg-transparent text-dark-900 border-2 border-dark-900 hover:bg-dark-900 hover:text-white hover:shadow-xl hover:scale-105 focus:ring-dark-700',
     };
 

@@ -39,7 +39,7 @@ const HeroSection = () => {
                         {/* Badge */}
                         <div className="inline-block mb-6">
                             <span className="bg-yellow-200 text-dark-900 text-sm font-bold px-4 py-2 rounded-full">
-                                AI Automation & Web Development
+                                Smart Websites. Automated Growth
                             </span>
                         </div>
 
@@ -57,7 +57,7 @@ const HeroSection = () => {
                         </p>
 
                         {/* CTA Buttons */}
-                        <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                        <div className="flex flex-col sm:flex-row gap-4 mb-8 ">
                             <Button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
                                 Get Started Today
                             </Button>
