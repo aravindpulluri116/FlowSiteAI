@@ -84,7 +84,7 @@ const PricingSection = () => {
                             <p className="text-gray-500 text-sm">
                                 Or call us directly at{' '}
                                 <a href={`tel:${whatsappNumber}`} className="text-primary font-semibold hover:underline">
-                                    +91 {whatsappNumber}
+                                    +91 8886113839
                                 </a>
                             </p>
                         </Card>
