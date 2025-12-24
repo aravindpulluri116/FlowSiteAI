@@ -44,7 +44,7 @@ const HeroSection = () => {
                         </div>
 
                         {/* Main Headline */}
-                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-dark-900 mb-6 leading-tight">
+                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-dark-900 mb-6 leading-tight font-lora">
                             Transform Your Business with{' '}
                             <span className="bg-gradient-to-r from-primary-600 to-blue-600 bg-clip-text text-transparent">
                                 AI & Web Solutions
@@ -59,7 +59,7 @@ const HeroSection = () => {
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4 mb-8 ">
                             <Button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
-                                Get Started Today
+                                Get Consultation
                             </Button>
                             <Button variant="secondary" onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}>
                                 View Services

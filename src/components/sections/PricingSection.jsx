@@ -56,7 +56,10 @@ const PricingSection = () => {
                                         key={index}
                                         className="flex items-center gap-3 text-left"
                                     >
-                                        <span className="text-primary text-2xl flex-shrink-0">✓</span>
+                                        <svg className="w-6 h-6 flex-shrink-0" viewBox="0 0 24 24" fill="none">
+                                            <circle cx="12" cy="12" r="12" fill="#00C853" />
+                                            <path d="M7 12.5L10.5 16L17 9" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
                                         <span className="text-gray-700 font-medium">{feature}</span>
                                     </div>
                                 ))}

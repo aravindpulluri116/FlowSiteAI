@@ -13,7 +13,7 @@ const Card = ({
     hover = true,
     ...props
 }) => {
-    const baseStyles = 'bg-white rounded-3xl p-8 shadow-xl border border-gray-50/50';
+    const baseStyles = 'bg-white rounded-3xl p-8 shadow-xl border border-blue-200/60';
     const hoverStyles = hover ? 'transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 hover:border-primary/20' : '';
 
     return (

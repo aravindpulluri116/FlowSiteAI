@@ -28,6 +28,7 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        lora: ['Lora', 'serif'],
       },
       borderRadius: {
         '4xl': '2rem',

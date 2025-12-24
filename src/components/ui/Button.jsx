@@ -15,12 +15,12 @@ const Button = ({
     onClick,
     ...props
 }) => {
-    const baseStyles = 'px-10 py-5 rounded-full font-semibold text-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-offset-2 inline-block text-center shadow-lg';
+    const baseStyles = 'px-10 py-5 rounded-full font-semibold text-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-offset-2 inline-block text-center shadow-lg cursor-pointer';
 
     const variants = {
-        primary: 'bg-gradient-to-r from-primary-600 to-primary-500 text-white hover:shadow-xl hover:shadow-primary-200/50 hover:scale-105 focus:ring-primary-200',
-        secondary: 'bg-white text-primary border-2 border-primary hover:border-yellow-400 hover:shadow-xl hover:scale-105 focus:ring-primary-200',
-        outlined: 'bg-transparent text-dark-900 border-2 border-dark-900 hover:bg-dark-900 hover:text-white hover:shadow-xl hover:scale-105 focus:ring-dark-700',
+        primary: 'bg-gradient-to-r from-primary-600 to-primary-500 text-white hover:shadow-2xl hover:shadow-primary-300/60 hover:scale-105 hover:-translate-y-1 hover:opacity-90 focus:ring-primary-200',
+        secondary: 'bg-white text-primary border-2 border-primary hover:border-yellow-400 hover:shadow-2xl hover:scale-105 hover:-translate-y-1 hover:bg-primary-50 focus:ring-primary-200',
+        outlined: 'bg-transparent text-dark-900 border-2 border-dark-900 hover:bg-dark-900 hover:text-white hover:shadow-2xl hover:scale-105 hover:-translate-y-1 focus:ring-dark-700',
     };
 
     return (
