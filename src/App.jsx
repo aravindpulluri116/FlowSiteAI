@@ -14,6 +14,7 @@ import TestimonialsSection from './components/sections/TestimonialsSection';
 import PricingSection from './components/sections/PricingSection';
 import FAQSection from './components/sections/FAQSection';
 import ContactSection from './components/sections/ContactSection';
+import ComingSoonSection from './components/sections/ComingSoonSection';
 import './index.css';
 
 /**
@@ -24,11 +25,13 @@ function App() {
     return (
         <div className="App">
             {/* Navigation */}
-            <Navbar />
+            {/* <Navbar /> */}
 
-            {/* Main Content */}
+            {/* Main Content - Temporarily showing only Coming Soon */}
             <main>
                 <Analytics />
+                <ComingSoonSection />
+                {/* 
                 <HeroSection />
                 <PresetSection />
                 <WhySquishSection />
@@ -41,10 +44,12 @@ function App() {
                 <PricingSection />
                 <FAQSection />
                 <ContactSection />
+                */}
             </main>
 
-            {/* Footer */}
+            {/* Footer - Hidden temporarily
             <Footer />
+            */}
         </div>
     );
 }
