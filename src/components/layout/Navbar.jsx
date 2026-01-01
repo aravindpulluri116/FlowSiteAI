@@ -30,7 +30,7 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`sticky top-0 z-50 transition-all duration-500 ${isScrolled
+            className={`sticky top-[40px] z-50 transition-all duration-500 ${isScrolled
                 ? 'bg-white/70 backdrop-blur-2xl backdrop-saturate-150 shadow-sm border-b border-black/5'
                 : 'bg-white/40 backdrop-blur-2xl backdrop-saturate-200 border-b border-black/5'
                 }`}

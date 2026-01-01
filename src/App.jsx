@@ -1,5 +1,6 @@
 import React from 'react';
 import { Analytics } from '@vercel/analytics/react';
+import AnnouncementBanner from './components/layout/AnnouncementBanner';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import HeroSection from './components/sections/HeroSection';
@@ -14,24 +15,24 @@ import TestimonialsSection from './components/sections/TestimonialsSection';
 import PricingSection from './components/sections/PricingSection';
 import FAQSection from './components/sections/FAQSection';
 import ContactSection from './components/sections/ContactSection';
-import ComingSoonSection from './components/sections/ComingSoonSection';
 import './index.css';
 
 /**
  * Main App Component
- * Assembles all sections of the Squish website clone
+ * Assembles all sections of the FlowSite website
  */
 function App() {
     return (
         <div className="App">
-            {/* Navigation */}
-            {/* <Navbar /> */}
+            {/* Announcement Banner */}
+            <AnnouncementBanner />
 
-            {/* Main Content - Temporarily showing only Coming Soon */}
+            {/* Navigation */}
+            <Navbar />
+
+            {/* Main Content */}
             <main>
                 <Analytics />
-                <ComingSoonSection />
-                {/* 
                 <HeroSection />
                 <PresetSection />
                 <WhySquishSection />
@@ -44,12 +45,10 @@ function App() {
                 <PricingSection />
                 <FAQSection />
                 <ContactSection />
-                */}
             </main>
 
-            {/* Footer - Hidden temporarily
+            {/* Footer */}
             <Footer />
-            */}
         </div>
     );
 }
