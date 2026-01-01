@@ -95,7 +95,7 @@ const ComingSoonSection = () => {
                                 <div className="form-input-wrapper">
                                     <input
                                         type="email"
-                                        placeholder="Enter your work email"
+                                        placeholder="Enter your email"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
                                         required
